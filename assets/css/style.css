@@ -1,0 +1,178 @@
+/*Global*/
+body {
+	background-image: url("../images/pexels-photo-547114.jpeg");
+	background-repeat: no-repeat;
+	background-size: 1552px 786px;
+	color: #222;
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* @font-face {
+    font-family: "akbar";
+    src: url("../font/akbar.ttf");
+} */
+
+
+#gameArea {
+	background-color:  rgba(100, 93, 93, 0.8);
+	border-radius: 30px;
+	height: 650px;
+	max-width: 500px;
+	margin: 20px auto;
+	box-shadow: 0 0 35px #424242;
+}
+
+.hide {
+	display: none;
+}
+
+/*Buttons*/
+.buttonClass {
+	padding-top: 200px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.buttonClass button {
+	background-color: #3F51B5;
+	color: #ECF0F1;
+}
+
+/*Welcome and All Done*/
+.menu {
+	padding-top: 120px;
+}
+
+.menu h1, .menu h2 {
+	font-weight: bold;
+}
+
+/*Questions and Answers*/
+.top-middle {
+	height: 60px;
+}
+/*Timer*/
+.timer {
+	font-size: 32px;
+	font-weight: bold;
+	width: 60px;
+	height: 60px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: #3F51B5;
+	color: #ECF0F1;
+}
+
+/*Question*/
+.questionArea {
+	margin-top: 70px;
+	height: 180px;
+}
+
+/*Question Number*/
+.questionNumber {
+	height: 30px;
+}
+
+#questionNumber {
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #9E9E9E;
+}
+
+#question {
+	font-weight: bold;
+}
+
+/*Answer*/
+.answer {
+	border: solid 2px grey;
+	width: 85%;
+	height: 50px;
+	padding-top: 4px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 25px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.selected {
+	border: solid 2px #3F51B5;
+	background-color: #3F51B5;
+	color: #ECF0F1;
+}
+
+.correct {
+	background-color: #66CC99;
+	color: #ECF0F1;
+	border-color: #66CC99;
+}
+
+/*Pills to indicate correct or incorrect answer*/
+.right, .wrong {
+	width: 150px;
+	height: 36px;
+	border-radius: 18px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	color: white;
+	padding-top: 6px;
+}
+
+.right {
+	background-color: #66CC99;
+}
+
+.wrong {
+	background-color: #FC575E;
+}
+
+/*media queries*/
+/*change widths of game area and answers on smaller screen*/
+@media (max-width: 680px) {
+	#gameArea {
+		width: 95%;
+		height: 500px;
+	}
+	body {
+		background-size: auto;
+	}
+
+	.answer {
+		width: 95%;
+		font-size: 22px;
+		padding-top: 5px;
+	}
+
+	#questionNumber {
+		margin-right: 15px;
+	}
+
+	.buttonClass {
+		padding-top: 100px;
+		width: 90%;
+	}
+
+	.questionArea {
+	margin-top: 20px;
+	height: 160px;
+	}
+
+	.menu {
+	padding-top: 50px;
+	}
+
+	#question {
+		font-size: 24px;
+	}
+
+
+}
+
+
+
