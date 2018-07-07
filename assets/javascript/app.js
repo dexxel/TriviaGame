@@ -114,7 +114,7 @@ $(document).ready(function(){
 		game.timeLeft = 8;
 		//hide welcome screen
 		$(".menu").addClass("hide");
-		//hide game over screen
+		//hide all done screen
 		$(".menu").addClass("hide");
 		//display questions and answers
 		$(".questionAnswers").toggleClass("hide");
